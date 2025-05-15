@@ -30,7 +30,7 @@ const SearchPage = ({darkMode}) => {
           value={query}
           onChange={handleChange}
           placeholder="Search GitHub username"
-          className="border p-2 rounded-md"
+           className="border p-2 rounded-md placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white bg-white dark:bg-gray-800"
 
         />
         <div className="mt-4">
