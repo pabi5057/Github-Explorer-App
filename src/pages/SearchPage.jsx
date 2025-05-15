@@ -9,6 +9,7 @@ const SearchPage = ({darkMode}) => {
   const dispatch = useDispatch();
   const { query, users, loading } = useSelector((state) => state.search);
 
+
   const debouncedFetch = useCallback(
     debounce((value) => {
       dispatch(fetchUsers(value));

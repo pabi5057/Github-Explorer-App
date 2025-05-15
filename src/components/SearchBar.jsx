@@ -1,7 +1,7 @@
 import SearchPage from "../pages/SearchPage";
 
 
-function SearchBar(darkMode) {
+function SearchBar({darkMode}) {
     return ( 
         <>
             <SearchPage darkMode={darkMode}/>
