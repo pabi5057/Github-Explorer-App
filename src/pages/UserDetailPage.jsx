@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import RepoModal from '../components/Repomodal';
+import RepoModal from '../components/RepoModal';
 import { Button, Box, Typography, Avatar } from '@mui/material';
 import { FadeLoader } from "react-spinners";
 import { useDispatch, useSelector } from 'react-redux';
